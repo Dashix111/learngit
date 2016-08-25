@@ -1,0 +1,9 @@
+git init #initiat current depository as a git repository
+git add $file
+git commit -m 
+git status
+git diff $file
+git log
+git reset --hard HEAD^ #HEAD^ == go back 1 version HEAD^^ == go bakc 2 version
+git reflog
+git reset --hard commit_id
