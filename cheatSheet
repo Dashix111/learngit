@@ -7,4 +7,11 @@ git log
 git reset --hard HEAD^ #HEAD^ == go back 1 version HEAD^^ == go bakc 2 version
 git reflog
 git reset --hard commit_id
-git checkout -- file #del all changes in working directory//go back to last git add or git commit
+git checkout -- file #discard changes in working directory//go back to last git add or git commit
+git reset HEAD file #to unstage
+git branch #check current branch 
+git branch <name> #create <name> branch
+git checkout <name> #change to <name> branch 
+git checkout -b <name> #create and change to <name> branch
+git merge <name> #merge <name> branch to master 
+git branch -d <name> #delete <name> branch
