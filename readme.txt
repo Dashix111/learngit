@@ -6,3 +6,5 @@ My stupid boss still prefers SVN.
 Creating a new branch is quick and simple.
 merge test
 merge with fast forward
+I fixed the bug already
+
